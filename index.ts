@@ -1,7 +1,7 @@
-import cont from "./controllers";
-import ents from "./entities";
-import net from "./network";
-import upd from "./lifecycle";
+import cont from "./src/controllers";
+import ents from "./src/entities";
+import net from "./src/network";
+import upd from "./src/lifecycle";
 
 export const Entities = ents;
 export const Network: typeof net = net; // what?
